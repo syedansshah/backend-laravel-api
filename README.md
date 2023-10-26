@@ -21,25 +21,30 @@ Follow these steps to get the project up and running on your local machine.
     composer install
 
 3. Set up your environment variables:
-
+    
+    ```bash
     Copy .env.example to .env.
     Update the necessary environment variables like database connection and API keys.
 
 4. Generate application key:
-
+    
+    ```bash
     php artisan key:generate
 
 5. Migrate the database:
-
+    
+    ```bash
     php artisan migrate
 
 6. Start the Laravel development server:
-
+    
+    ```bash
     php artisan serve
     Your application will be accessible at http://localhost:8000.
 
 7. Folder Structure:
-
+    
+    ```bash
     app: Contains your application's models, controllers, and other core components.
     config: Configuration files for your application.
     database: Migration files and seeds for your database.
@@ -53,6 +58,7 @@ Follow these steps to get the project up and running on your local machine.
 
 8. Routes:
 
+    ```bash
     /signup: signup user account.
     /login:  login user account.
     /feed:   getting current news details.
@@ -61,6 +67,14 @@ Follow these steps to get the project up and running on your local machine.
     /ny-times: get news from specific source ( NEW YORK TIMES-API).
 
 9. Data Sources
-Source 1: (NEWS API)
-Source 2: (THE GUARDIAN)
-Source 3: (NEW YORK TIMES)
+### Source 1 NEWS API
+
+    NEWS API
+
+### Source 2 THE GUARDIAN
+
+    GUARDIAN
+
+### Source 3 NEW YORK TIMES
+
+    NEW YORK TIMES
